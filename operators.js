@@ -139,8 +139,8 @@
 // console.log(a * b); // output -> Infinity
 
 
-var a = 5;
-var b = 5;
+// var a = 5;
+// var b = 5;
 
 // if (a == b) {
 //   console.log('Equal');
@@ -148,4 +148,13 @@ var b = 5;
 //   console.log('Not equal');
 // };
 
-console.log(a == b ? 'Equal' : 'Not equal');
+// console.log(a == b ? 'Equal' : 'Not equal');
+
+/////////////// Operators precedence ///////////////
+
+var a = 5;
+var b = 6;
+
+console.log(a + b * 2); // output -> 17
+
+console.log((a + b) * 2); // output -> 22
