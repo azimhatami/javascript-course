@@ -1,0 +1,16 @@
+let pepole = [
+  {name: 'Mehran', new_member: true},
+  {name: 'Ali', new_member: false},
+  {name: 'Azim', new_member: false},
+  {name: 'Amir', new_member: true},
+];
+
+let ul = document.querySelector('ul');
+
+pepole.forEach(p => {
+  if (p.new_memberd){
+    ul.innerHTML += `<li>${p.name} <span class="badge badge-danger">new</span></li>`
+  } else {
+    ul.innerHTML += `<li>${p.name}</li>`;
+  };
+});
