@@ -64,7 +64,7 @@ var array = ['old', 1, 2, 3, 4];
 // console.log(testArray.join(' -> ')); // -> 'old : 1 : 2 : 3 4'
 
 
-// var varTest = [1, 2, 3, 4];
-// console.log(varTest.reduce(function (total, value) {
-//   return total + value;
-// })); // output -> 10
+var varTest = [1, 2, 3, 4];
+console.log(varTest.reduce(function (total, value) {
+  return total + value;
+})); // output -> 10
